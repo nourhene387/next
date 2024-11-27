@@ -1,0 +1,49 @@
+/* Navbar container styling */
+.navbar {
+  background-color: #333; /* Dark background color */
+  padding: 10px 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds subtle shadow */
+}
+
+/* Navbar list styling */
+.navbarList {
+  list-style-type: none;
+  display: flex;
+  justify-content: center; /* Centers the navbar items */
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar link styling */
+.navbarLink {
+  text-decoration: none; /* Removes the default underline */
+  color: white; /* White text color */
+  font-size: 18px; /* Font size */
+  font-weight: bold; /* Bold text */
+  margin: 0 15px; /* Space between items */
+  transition: color 0.3s ease; /* Smooth color transition */
+}
+
+/* Navbar link hover effect */
+.navbarLink:hover {
+  color: #f1c40f; /* Yellow color on hover */
+}
+
+/* Active link state */
+.navbarLink.active {
+  color: #f1c40f; /* Highlight active link */
+}
+
+/* Mobile responsiveness for the navbar */
+@media (max-width: 768px) {
+  .navbarList {
+    flex-direction: column; /* Stack navbar items vertically on small screens */
+    text-align: center; /* Center-align text */
+  }
+
+  .navbarLink {
+    margin: 10px 0; /* Add spacing between links in mobile view */
+    font-size: 20px; /* Increase font size for better readability */
+  }
+}

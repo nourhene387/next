@@ -1,0 +1,92 @@
+/* Container Styling */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+    align-items: center;
+    background-color: #f9f9f9; /* Light background for the section */
+    border-radius: 8px; /* Rounded corners for the container */
+  }
+  
+  /* Title Styling */
+  .title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    color: #333;
+  }
+  
+  /* Project Card Styling */
+  .projectCard {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;*/
+  }
+  
+  /*.projectCard:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); 
+  
+  /* Image Styling */
+  .projectImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    height: 200px; /* Fixed height for the image */
+  }
+  
+  /* Project Information */
+  .projectInfo {
+    padding: 1.25rem;
+    background-color: #fff;
+  }
+  
+  .projectTitle {
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+    color: #333;
+  }
+  
+  .projectDescription {
+    margin-bottom: 1rem;
+    color: #666;
+  }
+  
+  .projectTechStack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  
+  .techBadge {
+    background-color: #e0f7fa;
+    color: #00796b;
+    padding: 0.25rem 0.75rem;
+    border-radius: 12px;
+    font-size: 0.875rem;
+    font-weight: 600;
+  }
+  
+  .techBadge:hover {
+    background-color: #00796b;
+    color: white;
+  }
+  
+  /* Mobile-First Design Tweaks */
+  @media (max-width: 768px) {
+    .container {
+      padding: 1rem;
+    }
+  
+    .title {
+      font-size: 2rem;
+    }
+  
+    .projectTitle {
+      font-size: 1.5rem;
+    }
+  }
+  

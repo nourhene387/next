@@ -1,0 +1,37 @@
+/* home.module.css */
+.home {
+  text-align: center;
+  padding: 20px;
+}
+
+.heroTitle {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.heroDescription {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.image {
+  width: 60%;
+  height:50%;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.ctaButton {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: white;
+  background-color: #007bff;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.ctaButton:hover {
+  background-color: #0056b3;
+}

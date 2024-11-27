@@ -1,0 +1,87 @@
+/* Container Styling */
+.contactContainer {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Form Input Fields */
+  .inputField {
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    transition: border-color 0.3s ease;
+  }
+  
+  .inputField:focus {
+    border-color: #4CAF50; /* Highlight border on focus */
+    outline: none;
+  }
+  
+  /* Label Styling */
+  .label {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #333;
+  }
+  
+  /* Textarea Styling */
+  .textareaField {
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+    resize: vertical;
+    margin-bottom: 1.5rem;
+    transition: border-color 0.3s ease;
+  }
+  
+  .textareaField:focus {
+    border-color: #4CAF50; /* Highlight border on focus */
+    outline: none;
+  }
+  
+  /* Submit Button Styling */
+  .submitButton {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submitButton:hover {
+    background-color: #45a049;
+  }
+  
+  /* Heading Styling */
+  .contactHeading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    color: #333;
+  }
+  
+  /* Responsive Styling for Smaller Devices */
+  @media (max-width: 768px) {
+    .contactContainer {
+      padding: 1rem;
+    }
+  
+    .contactHeading {
+      font-size: 2rem;
+    }
+  }
+  
